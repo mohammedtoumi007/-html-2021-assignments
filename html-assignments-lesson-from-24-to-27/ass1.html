@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Form1">
+    <title>Form1</title>
+</head>
+<body>
+   <form action="test.py" method="POST">
+       <input type="hidden" value="123456789">
+        <div>
+            <label>Username :</label><br>
+            <input type="text"required placeholder="Write Your Name" name="user">
+       </div>
+       <br>
+       <div>
+            <label>Password :</label><br><hr>
+            <input type="password" placeholder="Write A complex Password" name="pass">
+        </div>
+        <br><hr>
+       <div>
+            <label>Mobile :</label><br><hr>
+            <input type="text" placeholder="Write Your Valid Mobile"   value="+123 (234) 20100" name="mobile">
+       </div>
+       <br><hr>
+      <div>
+            <label>Email :</label><br><hr>
+            <input type="email" required  placeholder="Write Your Valid Email" name="email">
+        </div>
+        <br><hr>
+        <div>
+            <label>Subject :</label><br><hr>
+            <input type="text" placeholder="Write Your Subject" name="subject">
+        </div>
+        <br><hr>
+        <input type="reset" value="Empty Form">
+        <input type="submit" value="Send Data">
+   </form>
+</body>
+</html>
